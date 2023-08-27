@@ -15,7 +15,7 @@ phoneContainar.textContent = '';
 
 // display show all button  when there ar more then 12 phones
 const showAllContainar = document.getElementById("show-all-containar");
-if(phones.length > 12){
+if(phones.length > 30){
     showAllContainar.classList.remove('hidden')
 }
 else{
@@ -24,7 +24,7 @@ else{
 
 // how many phone we show in oure websid
 
-phones = phones.slice(0,12)
+phones = phones.slice(0,30)
 
   phones.forEach((phone) => {
     // console.log(phone);
